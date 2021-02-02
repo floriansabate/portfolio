@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Contact Me</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+		<link rel="icon" href="img/icon/face.ico">
+		<link rel="stylesheet" href="bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="javascript/jquery-3.4.0.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container" style="margin-top:20px;">
+			<div id="navbar" style="background-color: #F1F1F1;">
+				<a onclick="back('');">HOME</a>
+				<a onclick="back('#about');">ABOUT</a>
+				<a onclick="back('#portfolio');">PORTFOLIO</a>
+				<a>CONTACT</a>
+			</div>
+			<h3>Contact me</h3>
+			<p style="width: 60%; text-align:center; margin: auto; margin-top: 25px; opacity: 0.7;">If you have any questions, please do not hesitate to contact me via the form below, or via the other means of communication specified hereafter.</p>
+			<img id="close" src="img/icon/close.png">
+			<fieldset>
+				<legend>Leave a message</legend>
+				<form id="form" action="mailto:1810220005@students.stamford.edu">
+					  <input type="text" name="firstname" required placeholder="First Name" style="width: 200px; margin-right: 22px;">
+					  <input type="text" name="lastname" required placeholder="Last Name" style="width: 200px;"><br>
+					  <input type="email" name="email" required placeholder="Email" style="width: 443px;"><br>
+					  <textarea name="message" placeholder="Message" required style="width:442px;height:200px; padding-top: 10px;"></textarea><br>
+					  <button type="button" id="submit" form-type="contact">Submit</button>
+				</form>
+			</fieldset>
+			<div id="id-card">
+				<div class="card" style="width:500px">
+				  <iframe height="300" src="https://maps.google.com/maps?q=stamford%20international%20university&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+				  <div class="card-body">
+					<h5 class="card-title">Florian Sabaté</h5>
+					<p id="card-text"><i class="fa fa-id-card"></i>Mr. Florian Sabaté<i class="fa fa-phone"></i>+66835684452<br><i class="fa fa-envelope"></i>1810220005@students.stamford.edu<br><i class="fa fa-home"></i>16, Motorway Road – Km2, Prawet, Bangkok 10250</p>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="javascript/contact.js"></script>
+	</body>
+</html>
+

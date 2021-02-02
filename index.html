@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Florian Sabaté's Portfolio</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+		<link rel="icon" href="img/icon/face.ico">
+		<link rel="stylesheet" href="bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="javascript/jquery-3.4.0.min.js"></script>
+		<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div id="navbar">
+				<a href="#header">HOME</a>
+				<a href="#about">ABOUT</a>
+				<a href="#portfolio">PORTFOLIO</a>
+				<a onclick="openContact();">CONTACT</a>
+				<a id="search"><img src="img/icon/search.png" width="20" height="20" onclick="search()"></a>
+				<input type="text" id="searchbar" maxlength="20" size="20" placeholder="Search something..." onkeydown="jumpToText(this.value)">
+			</div>
+			<h1>Welcome,</h1>
+			<h2 id="welcome">I'm Florian Sabaté</h2>
+			<i class="fa fa-angle-double-down" id="chevron" style="font-size: 150px; position: absolute; margin-top: 200px;"></i>
+			<h4>Learn more about me</h4>
+		</div>
+			<div class="container" id="about" style="padding-bottom: 60px;">
+				<h3>About Me</h3>
+				<div class="content">
+					<img id="face" src="img/face.png" alt="Face" width="350" >
+					<p>My name is Florian Sabaté, I come from the south of France, and I have been passionate about computers and music since I was a child. I studied network security and programming at university, and today I continue in an international college in Thailand.
+					<br><br>My main occupations are website design, Android applications, graphics and especially music composition, since it is now my main source of income, in freelancing or ghost production on the Internet.
+					<br><br>I am a reserved person, but very involved and hardworker, I work a lot in an autonomous and independent way, and what is more, I am often self-taught. It is mainly in this way that I learned my skills in retouching photos and graphic design as well as electronic music composition. In addition to my professional-looking hobbies, I love history, watching movies, travelling and walking in nature, which is often a source of inspiration for my projects.
+					<br><br>I am therefore interested in any type of work or project that allows me to mix my creative side and my computer skills.</p><br><br>
+					<a href="https://houseoftracks.com/label/ninoedm" target="_blank"><div id="houseoftracks"><img src="img/icon/houseoftracks.png" alt="House of Tracks" width="56"><p>NE Records<br><span id="sub">HouseofTracks</span></p></div></a>
+					<iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:3sFy4126UQX3OrtTbkMgUh&size=detail&theme=light" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden; opacity: .8;" align="right" allowtransparency="true"></iframe>
+				</div>
+			</div>
+			<div class="container" id="skills">
+				<h3>My Skills</h3>
+				<div class="content">
+					<p class="section"><i class="fa fa-caret-right"></i>Information technology</p>
+					<div class="skill">
+						<p style="margin-bottom: 10px;">Photoshop/Illustrator</p>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">70%</div>
+						</div>
+					</div>
+					<div class="skill">
+						<p style="margin-bottom: 10px;">Java</p>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">75%</div>
+						</div>
+					</div>
+					<div class="skill">
+						<p style="margin-bottom: 10px;">Android</p>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">65%</div>
+						</div>
+					</div>
+					<div class="skill">
+						<p style="margin-bottom: 10px;">Javascript/JQuery</p>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">50%</div>
+						</div>
+					</div>
+					<div class="skill">
+						<p style="margin-bottom: 10px;">HTML/CSS</p>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">70%</div>
+						</div>
+					</div>
+					<div class="skill">
+						<p style="margin-bottom: 10px;">Network Administration</p>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">65%</div>
+						</div>
+					</div>
+					<div class="skill">
+						<p style="margin-bottom: 10px;">OS Administration (Linux)</p>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">85%</div>
+						</div>
+					</div>
+					<div class="skill">
+						<p style="margin-bottom: 10px;">Music Producing</p>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-red" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">100%</div>
+						</div>
+					</div>
+					<p class="section" style="margin-top: 50px;"><i class="fa fa-caret-right"></i>Language</p>
+					<div class="skill">
+						<p style="margin-bottom: 10px;">French</p>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-grey" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">Native</div>
+						</div>
+					</div>
+					<div class="skill">
+						<p style="margin-bottom: 10px;">English</p>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-grey" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">Fluent (writing)</div>
+						</div>
+					</div>
+					<div class="skill">
+						<p style="margin-bottom: 10px;">Spanish</p>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-grey" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">Intermediate</div>
+						</div>
+					</div><br><br>
+					<p class="section" style="margin-top: 50px;"><i class="fa fa-caret-right"></i>Keyboard typing skill</p>
+					<a type="button" href="https://10fastfingers.com/share-badge/1_BD" target="_blank"><img src="img/results.jpg" id="results" alt="Face" width="270" ></a>
+				</div>
+			</div>
+			<div class="container" id="portfolio"> 
+				<h3 style="color: #6E6E6E;">My apps</h3>
+					<div id="myCarousel2" class="carousel slide" style="height: 600px;" data-ride="carousel">
+						  <ul class="carousel-indicators">
+							<li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel2" data-slide-to="1"></li>
+							<li data-target="#myCarousel2" data-slide-to="2"></li>
+						  </ul>
+						  <div class="carousel-inner">
+							<div class="carousel-item active" style="height: 600px;">
+								<img class="background-img"  src="img/cover/moreorless.jpg">
+								<a class="googleplay-badge" target="_blank" href='https://play.google.com/store/apps/details?id=nalakstudio.howmuch&hl=en&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' width="150" src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+								<div class="screenshot">
+									<img class="screenshot-item" src="img/cover/screenshot/howmuch.jpg">
+									<img class="screenshot-item" src="img/cover/screenshot/howmuch_1.jpg">
+									<img class="screenshot-item" src="img/cover/screenshot/howmuch_2.jpg">
+									<img class="screenshot-item" src="img/cover/screenshot/howmuch_3.jpg">
+								</div>
+								<img class="imgheader"  src="img/cover/moreorless_header.jpg">
+							</div>
+							<div class="carousel-item" style="height: 600px;">
+								<img class="background-img"  src="img/cover/guesswho.jpg">
+								<a class="googleplay-badge" href='https://play.google.com/store/apps/details?id=nalakstudio.guesswho&hl=en&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' width="150"  src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+								<div class="screenshot">
+									<img class="screenshot-item" src="img/cover/screenshot/guesswho.jpg">
+									<img class="screenshot-item" src="img/cover/screenshot/guesswho_1.jpg">
+									<img class="screenshot-item" src="img/cover/screenshot/guesswho_2.jpg">
+									<img class="screenshot-item" src="img/cover/screenshot/guesswho_3.jpg">
+								</div>
+								<img class="imgheader"  src="img/cover/guesswho_header.jpg">
+							</div>
+							<div class="carousel-item" style="height: 600px;">
+								<img class="background-img"  src="img/cover/bombword.jpg">
+								<div class="screenshot">
+									<img class="screenshot-item" src="img/cover/screenshot/bombword.jpg">
+									<img class="screenshot-item" src="img/cover/screenshot/bombword_1.jpg">
+									<img class="screenshot-item" src="img/cover/screenshot/bombword_2.jpg">
+									<img class="screenshot-item" src="img/cover/screenshot/bombword_3.jpg">
+								</div>
+								<img class="imgheader"  src="img/cover/bombword_header.jpg">
+							</div>
+						  </div>
+						  <a class="carousel-control-prev" href="#myCarousel2" data-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						  </a>
+						  <a class="carousel-control-next" href="#myCarousel2" data-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						  </a>
+					</div>
+			</div>
+			<div class="container"> 
+					<h3 style="color: #6E6E6E;">My musics</h3>
+					 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+						  <ul class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+							<li data-target="#myCarousel" data-slide-to="3"></li>
+							<li data-target="#myCarousel" data-slide-to="4"></li>
+							<li data-target="#myCarousel" data-slide-to="5"></li>
+							<li data-target="#myCarousel" data-slide-to="6"></li>
+							<li data-target="#myCarousel" data-slide-to="7"></li>
+							<li data-target="#myCarousel" data-slide-to="8"></li>
+							<li data-target="#myCarousel" data-slide-to="9"></li>
+							<li data-target="#myCarousel" data-slide-to="10"></li>
+							<li data-target="#myCarousel" data-slide-to="11"></li>
+						  </ul>
+						  <div class="carousel-inner">
+							<div class="carousel-item active">
+								<iframe class="spotifytrack" src="https://open.spotify.com/embed/album/1o779Rg6FA3Xmwr794O7qe" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+								<img class="background-img"  src="img/cover/deepblue.jpg">
+							</div>
+							<div class="carousel-item">
+								<iframe class="spotifytrack" src="https://open.spotify.com/embed/album/1TiuQRXCityWrTN80bSzGV" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+								<img class="background-img"  src="img/cover/foolforyou.jpg">
+							</div>
+							<div class="carousel-item">
+								<iframe class="spotifytrack" src="https://open.spotify.com/embed/album/72vgRWkKKlgLPmrUJclZmQ" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+								<img class="background-img"  src="img/cover/theonlyone.jpg">
+							</div>
+							<div class="carousel-item">
+								<iframe class="spotifytrack" src="https://open.spotify.com/embed/album/3Tg6mtSMHGJ0Uk7wQy9wRZ" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+								<img class="background-img"  src="img/cover/gobackhome.jpg">
+							</div>
+							<div class="carousel-item">
+								<iframe width="100%" height="500" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/289220593&color=%23908494&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+							</div>
+							<div class="carousel-item">
+								<iframe width="100%" height="500" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/282272798&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+							</div>
+							<div class="carousel-item">
+								<iframe width="100%" height="500" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/280293123&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+							</div>
+							<div class="carousel-item">
+								<iframe width="100%" height="500" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/276256128&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+							</div>
+							<div class="carousel-item">
+								<iframe width="100%" height="500" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/272764939&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+							</div>
+							<div class="carousel-item">
+								<iframe width="100%" height="500" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/273828459&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+							</div>
+							<div class="carousel-item">
+								<iframe width="100%" height="500" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689845015%3Fsecret_token%3Ds-ewznE&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+							</div>
+							<div class="carousel-item">
+								<iframe width="100%" height="500" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/689844958%3Fsecret_token%3Ds-O6dWb&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+							</div>
+						  </div>
+						  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						  </a>
+						  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						  </a>
+					</div>
+			</div>
+		<footer>
+			<table id="tablee">
+					<td style="width: 300px;">
+						<table>
+							<td><a href="https://web.facebook.com/" target="_blank" class="fa fa-facebook"></a></td>
+							<td><a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a></td>
+							<td><a href="https://instagram.com/" target="_blank" class="fa fa-instagram"></a></td>
+							<td><a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"></a></td>
+						</table>
+					</td>
+					<td style="width: 300px;">© 2019 Florian Sabaté<br>Stamford International University</td>
+					<td id="backtotop" align="right"><i class="fa fa-arrow-up"></i>Go back to the top</td>
+			</table>
+		</footer>
+		<script type="text/javascript" src="javascript/script.js"></script>
+		<noscript>
+			<div id="shadow"></div>
+			<div id="noscript">
+				<h6>CAUTION</h6>
+				<p id="subtitle">You must enable Javascript to use this site correctly</p>
+				<p style="text-align: center; padding: 0 20px 0 20px">The use of Block Scripts is only to enhance the user experience, without its activation some features will not work.</p>
+			</div>
+		</noscript>
+	</body>
+</html>
+
